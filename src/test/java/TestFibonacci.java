@@ -2,7 +2,7 @@ import org.example.Fibonacci;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestMain {
+public class TestFibonacci {
 
     @Test
     public void testFibonacciSequenceRecursion() {
