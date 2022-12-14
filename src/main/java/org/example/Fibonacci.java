@@ -5,12 +5,13 @@ import java.util.Map;
 import java.util.stream.IntStream;
 
 /**
- * Functions of various ways to find the Fibonacci number.
+ * Functions of various ways to find the Fibonacci number
  */
 public class Fibonacci {
 
     /**
      * <p>Finding the Fibonacci number using recursion</p>
+     *
      * @param n Fibonacci sequence number
      * @return The value of the number 'n' from the fibonacci series
      */
@@ -26,6 +27,7 @@ public class Fibonacci {
 
     /**
      * <p>Finding the Fibonacci number using memoization via Map</p>
+     *
      * @param n Fibonacci sequence number
      * @return The value of the number 'n' from the fibonacci series
      */
@@ -36,6 +38,7 @@ public class Fibonacci {
 
     /**
      * <p>Finding the Fibonacci number iterative</p>
+     *
      * @param n Fibonacci sequence number
      * @return The value of the number 'n' from the fibonacci series
      */
@@ -66,6 +69,7 @@ public class Fibonacci {
 
     /**
      * <p>Finding the Fibonacci number using stream</p>
+     *
      * @param n Fibonacci sequence number
      * @return The value of the number 'n' from the fibonacci series
      */
@@ -78,6 +82,7 @@ public class Fibonacci {
 
     /**
      * <p>Prints fibonacci series up to 'n' number</p>
+     *
      * @param n Fibonacci sequence number
      */
     public static void printfFibonacciSequenceStream(int n) {

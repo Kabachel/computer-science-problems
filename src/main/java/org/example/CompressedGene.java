@@ -2,11 +2,29 @@ package org.example;
 
 import java.util.BitSet;
 
-public class CompressedGene {   // "ATG" : 24 bits -> 001110 : 6 bits
+/**
+ * Trivial compression of DNA code
+ */
+public class CompressedGene {
 
+    /**
+     * BitSet stores a 2 bit for one char
+     */
     private BitSet bitSet;
+    /**
+     * Length of gene
+     */
     private int length;
 
+    /**
+     * <p>Compress String of gene in BitSet</p>
+     * <p>'A' == 00</p>
+     * <p>'C' == 01</p>
+     * <p>'G' == 10</p>
+     * <p>'T' == 11</p>
+     *
+     * @param gene String of gene
+     */
     public CompressedGene(String gene) {
         compress(gene);
     }
@@ -19,20 +37,21 @@ public class CompressedGene {   // "ATG" : 24 bits -> 001110 : 6 bits
         for (int i = 0; i < length; i++) {
             final int firstLocation = 2 * i;
             final int secondLocation = 2 * i + 1;
+
             switch (upperGene.charAt(i)) {
-                case 'A' -> {   // 00
+                case 'A' -> {
                     bitSet.set(firstLocation, false);
                     bitSet.set(secondLocation, false);
                 }
-                case 'C' -> {   // 01
+                case 'C' -> {
                     bitSet.set(firstLocation, false);
                     bitSet.set(secondLocation, true);
                 }
-                case 'G' -> {   // 10
+                case 'G' -> {
                     bitSet.set(firstLocation, true);
                     bitSet.set(secondLocation, false);
                 }
-                case 'T' -> {   // 11
+                case 'T' -> {
                     bitSet.set(firstLocation, true);
                     bitSet.set(secondLocation, true);
                 }
@@ -42,6 +61,11 @@ public class CompressedGene {   // "ATG" : 24 bits -> 001110 : 6 bits
         }
     }
 
+    /**
+     * <p>Decompress BitSet of DNA code to String</p>
+     *
+     * @return String from BitSet of DNA code
+     */
     public String decompress() {
         if (bitSet == null) return null;
 
@@ -50,6 +74,7 @@ public class CompressedGene {   // "ATG" : 24 bits -> 001110 : 6 bits
             final int firstBit = bitSet.get(i) ? 1 : 0;
             final int secondBit = bitSet.get(i + 1) ? 1 : 0;
             final int lastBits = firstBit << 1 | secondBit;
+
             switch (lastBits) {
                 case 0b00 -> {  // 00 == 'A'
                     builder.append('A');
