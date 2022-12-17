@@ -8,6 +8,9 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/dbnavigator.xml
+.idea/encodings.xml
+.idea/shelf/
 *.iws
 *.iml
 *.ipr
