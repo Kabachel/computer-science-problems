@@ -10,10 +10,15 @@ import java.util.stream.IntStream;
 public class Fibonacci {
 
     /**
+     * The private Map storing cached values for fibonacciSequenceMemoize
+     */
+    private static Map<Integer, Integer> map = new HashMap<>(Map.of(0, 0, 1, 1));
+
+    /**
      * <p>Finding the Fibonacci number using recursion</p>
      *
      * @param n Fibonacci sequence number
-     * @return The value of the number 'n' from the fibonacci series
+     * @return integer value of the number 'n' from the fibonacci series
      */
     public static int fibonacciSequenceRecursion(int n) {
         if (n < 2) return n;
@@ -21,15 +26,10 @@ public class Fibonacci {
     }
 
     /**
-     * The private Map storing cached values for fibonacciSequenceMemoize
-     */
-    private static Map<Integer, Integer> map = new HashMap<>(Map.of(0, 0, 1, 1));
-
-    /**
      * <p>Finding the Fibonacci number using memoization via Map</p>
      *
      * @param n Fibonacci sequence number
-     * @return The value of the number 'n' from the fibonacci series
+     * @return integer value of the number 'n' from the fibonacci series
      */
     public static int fibonacciSequenceMemoize(int n) {
         if (!map.containsKey(n)) map.put(n, fibonacciSequenceMemoize(n - 1) + fibonacciSequenceMemoize(n - 2));
@@ -40,7 +40,7 @@ public class Fibonacci {
      * <p>Finding the Fibonacci number iterative</p>
      *
      * @param n Fibonacci sequence number
-     * @return The value of the number 'n' from the fibonacci series
+     * @return integer value of the number 'n' from the fibonacci series
      */
     public static int fibonacciSequenceIterative(int n) {
         int last = 0;
@@ -55,14 +55,18 @@ public class Fibonacci {
         return last;
     }
 
-    private int last = 0;
-    private int next = 1;
-
+    /**
+     * Generate stream of fibonacci numbers
+     *
+     * @return stream of fibonacci numbers
+     */
     private IntStream stream() {
+        final int[] next = {1};
+        final int[] last = {0};
         return IntStream.generate(() -> {
-            int oldLast = last;
-            last = next;
-            next += oldLast;
+            int oldLast = last[0];
+            last[0] = next[0];
+            next[0] += oldLast;
             return oldLast;
         });
     }
@@ -71,7 +75,7 @@ public class Fibonacci {
      * <p>Finding the Fibonacci number using stream</p>
      *
      * @param n Fibonacci sequence number
-     * @return The value of the number 'n' from the fibonacci series
+     * @return integer value of the number 'n' from the fibonacci series
      */
     public static int fibonacciSequenceStream(int n) {
         Fibonacci fibonacci = new Fibonacci();

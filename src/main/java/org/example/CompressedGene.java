@@ -76,18 +76,10 @@ public class CompressedGene {
             final int lastBits = firstBit << 1 | secondBit;
 
             switch (lastBits) {
-                case 0b00 -> {  // 00 == 'A'
-                    builder.append('A');
-                }
-                case 0b01 -> {  // 01 == 'C'
-                    builder.append('C');
-                }
-                case 0b10 -> {  // 10 == 'G'
-                    builder.append('G');
-                }
-                case 0b11 -> {  // 11 == 'T'
-                    builder.append('T');
-                }
+                case 0b00 -> builder.append('A');
+                case 0b01 -> builder.append('C');
+                case 0b10 -> builder.append('G');
+                case 0b11 -> builder.append('T');
             }
         }
 
