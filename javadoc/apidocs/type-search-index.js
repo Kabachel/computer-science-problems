@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.example","l":"CompressedGene"},{"p":"org.example","l":"Fibonacci"},{"p":"org.example","l":"KeyPair"},{"p":"org.example","l":"PiCalculator"},{"p":"org.example","l":"UnbreakableEncryption"}];updateSearchResults();
