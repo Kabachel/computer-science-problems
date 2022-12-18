@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="" />
+    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="feat: javadoc on github">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PiCalculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/TestCompressedGene.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ia82Exss4BEO2GddWkYSUfgTng" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,12 +32,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\IdeaProjects\ComputerScience" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Hanoi" />
+      <module name="ComputerScience" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hanoi" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,6 +72,63 @@
       <option name="presentableId" value="Default" />
       <updated>1670408125770</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: new class PiCalculator">
+      <created>1671275951037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671275951037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test: PiCalculator">
+      <created>1671275967538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671275967538</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: new class PiCalculator">
+      <created>1671276475239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671276475239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test: PiCalculator">
+      <created>1671276498177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671276498177</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: new class Hanoi">
+      <created>1671358496480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671358496480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test: Hanoi">
+      <created>1671358510422</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671358510422</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: javadoc on github">
+      <created>1671358997021</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671358997021</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: javadoc on github">
+      <created>1671359064118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671359064118</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -43,5 +141,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: new class Fibonacci" />
+    <MESSAGE value="feat: add javadoc and tests for Fibonacci" />
+    <MESSAGE value="feat: new class PiCalculator" />
+    <MESSAGE value="test: PiCalculator" />
+    <MESSAGE value="feat: new class Hanoi" />
+    <MESSAGE value="test: Hanoi" />
+    <MESSAGE value="feat: javadoc on github" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: javadoc on github" />
   </component>
 </project>

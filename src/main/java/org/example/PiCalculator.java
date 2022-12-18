@@ -5,7 +5,7 @@ package org.example;
  */
 public class PiCalculator {
     /**
-     * Calculate number Pi with a certain terms
+     * Calculate number Pi with a certain numbers of terms
      *
      * @param nTerms number of terms
      * @return number Pi
