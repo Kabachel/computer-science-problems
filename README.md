@@ -21,6 +21,6 @@ Reading, fixing, testing and writing documentation from the material of the book
 You can view the project documentation at the link [DocPage](https://kabachel.github.io/computer-science-problems/)
 
 ## Tests
-* Unit tests are implemented using [Junit5](https://github.com/junit-team/junit5/) and coverage report with [JaCoCo](https://github.com/jacoco/jacoco).
+* Unit tests are implemented using [Junit5](https://github.com/junit-team/junit5/) and coverage report with [JaCoCo](https://github.com/jacoco/jacoco) and CI with [Codecov](https://github.com/codecov).
 To run use `mvn test`
 
