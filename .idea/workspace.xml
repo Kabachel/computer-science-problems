@@ -204,11 +204,33 @@
       <option name="project" value="LOCAL" />
       <updated>1671450080769</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix: codecov">
+      <created>1671450229354</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671450229354</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: codecov">
+      <created>1671451546409</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671451546409</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix: codecov">
+      <created>1671451850631</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671451850631</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="ci.yml" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="config.yml" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
