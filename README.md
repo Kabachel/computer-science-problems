@@ -1,5 +1,6 @@
 # computer-science-problems
 ![Build Status](https://github.com/Kabachel/computer-science-problems/actions/workflows/ci.yml/badge.svg?branch=develop)
+[![codecov](https://codecov.io/gh/Kabachel/computer-science-problems/branch/develop/graph/badge.svg?token=BA4XORKTKS)](https://codecov.io/gh/Kabachel/computer-science-problems)
 
 ## Table of contents
 * [Introduction](#Introduction)
