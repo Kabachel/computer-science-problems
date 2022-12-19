@@ -7,42 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="feat: javadoc on github">
+    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="fix: codecov">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/legal/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/legal/jquery.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/legal/jqueryUI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/CompressedGene.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/CompressedGene.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/Fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Fibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/Hanoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Hanoi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/KeyPair.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/KeyPair.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/PiCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/PiCalculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/UnbreakableEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/UnbreakableEncryption.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-3.5.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/script-dir/jquery-3.5.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/script-dir/jquery-ui.structure.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/script-dir/jquery-ui.structure.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,15 +35,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/IdeaProjects/Spring/WokCloud&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/danil/IdeaProjects/Spring/WokCloud"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\danil\IdeaProjects\ComputerScience" />
@@ -195,8 +162,53 @@
       <option name="project" value="LOCAL" />
       <updated>1671359786269</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: new function fibonacciSequenceBinet in Fibonacci">
+      <created>1671445079468</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671445079468</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add travis-ci support">
+      <created>1671445123962</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671445123963</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: delete travis-ci and add codecov support">
+      <created>1671447781712</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671447781712</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add badge">
+      <created>1671448732653</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671448732653</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: codecov">
+      <created>1671449705474</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671449705474</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: codecov">
+      <created>1671450080769</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671450080769</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="ci.yml" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -217,6 +229,11 @@
     <MESSAGE value="feat: new class Hanoi" />
     <MESSAGE value="test: Hanoi" />
     <MESSAGE value="feat: javadoc on github" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: javadoc on github" />
+    <MESSAGE value="feat: new function fibonacciSequenceBinet in Fibonacci" />
+    <MESSAGE value="feat: add travis-ci support" />
+    <MESSAGE value="feat: delete travis-ci and add codecov support" />
+    <MESSAGE value="feat: add badge" />
+    <MESSAGE value="fix: codecov" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: codecov" />
   </component>
 </project>
