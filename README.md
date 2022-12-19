@@ -1,4 +1,5 @@
 # computer-science-problems
+![Build Status](https://github.com/Kabachel/computer-science-problems/actions/workflows/ci.yml/badge.svg?branch=develop)
 
 ## Table of contents
 * [Introduction](#Introduction)
