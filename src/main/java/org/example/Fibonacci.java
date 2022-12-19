@@ -12,7 +12,7 @@ public class Fibonacci {
     /**
      * The private Map storing cached values for fibonacciSequenceMemoize
      */
-    private static Map<Integer, Integer> map = new HashMap<>(Map.of(0, 0, 1, 1));
+    private final static Map<Integer, Integer> map = new HashMap<>(Map.of(0, 0, 1, 1));
 
     /**
      * <p>Finding the Fibonacci number using recursion</p>
@@ -53,6 +53,22 @@ public class Fibonacci {
         }
 
         return last;
+    }
+
+    /**
+     * <p>Finding the Fibonacci number using Binet's formula</p>
+     * <img src="../../../../docs/resources/formula-Bine.png" />
+     *
+     * @param n Fibonacci sequence number
+     * @return integer value of the number 'n' from the fibonacci series
+     */
+    public static int fibonacciSequenceBinet(int n) {
+        double index = Math.sqrt(5);
+
+        double left = (1 + index) / 2;
+        double right = (1 - index) / 2;
+
+        return (int) Math.round((Math.pow(left, n) - Math.pow(right, n)) / index);
     }
 
     /**
