@@ -3,17 +3,17 @@ import org.junit.Test;
 
 import org.example.UnbreakableEncryption;
 import org.example.*;
-import org.junit.jupiter.api.Disabled;
+//import org.junit.jupiter.api.Disabled;
 
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
+//import javax.imageio.ImageIO;
+//import java.awt.image.BufferedImage;
+//import java.io.File;
+//import java.io.IOException;
 
 public class TestUnbreakableEncryption {
 
     KeyPair keyPair;
-    KeyPairImages keyPairImages;
+//    KeyPairImages keyPairImages;
 
     @Test
     public void testUnbreakableEncryption() {
@@ -37,26 +37,26 @@ public class TestUnbreakableEncryption {
                 "", UnbreakableEncryption.decrypt(keyPair));
     }
 
-    @Disabled("Disabled because of false on codecov")
-    @Test
-    public void testUnbreakableEncryptionImage() throws IOException {
-        String path = "src\\main\\resources\\formula-Bine.png";
-        BufferedImage bufferedImage = ImageIO.read(new File(path));
-
-        keyPairImages = UnbreakableEncryption.encryptImage(path);
-        UnbreakableEncryption.decryptImage(keyPairImages, path);
-        BufferedImage bufferedImageTest = ImageIO.read(new File(path));
-
-        Assert.assertEquals("testDecryptImage()", bufferedImage.getGraphics().toString(), bufferedImageTest.getGraphics().toString());
-        Assert.assertEquals("testDecryptImage()", bufferedImage.getData().toString(), bufferedImageTest.getData().toString());
-    }
-
-    @Disabled("Disabled because of false on codecov")
-    @Test
-    public void testUnbreakableEncryptionImageEncryptWithException() {
-        String path = "src\\main\\resources\\formula-Bine.pn";
-        Throwable throwable = Assert.assertThrows(IOException.class, () -> UnbreakableEncryption.encryptImage(path));
-
-        Assert.assertNotNull(throwable.getMessage());
-    }
+    // @Disabled("Disabled because of false on codecov")
+    // @Test
+    // public void testUnbreakableEncryptionImage() throws IOException {
+    //     String path = "src\\main\\resources\\formula-Bine.png";
+    //     BufferedImage bufferedImage = ImageIO.read(new File(path));
+    //
+    //     keyPairImages = UnbreakableEncryption.encryptImage(path);
+    //     UnbreakableEncryption.decryptImage(keyPairImages, path);
+    //     BufferedImage bufferedImageTest = ImageIO.read(new File(path));
+    //
+    //     Assert.assertEquals("testDecryptImage()", bufferedImage.getGraphics().toString(), bufferedImageTest.getGraphics().toString());
+    //     Assert.assertEquals("testDecryptImage()", bufferedImage.getData().toString(), bufferedImageTest.getData().toString());
+    // }
+    //
+    // @Disabled("Disabled because of false on codecov")
+    // @Test
+    // public void testUnbreakableEncryptionImageEncryptWithException() {
+    //     String path = "src\\main\\resources\\formula-Bine.pn";
+    //     Throwable throwable = Assert.assertThrows(IOException.class, () -> UnbreakableEncryption.encryptImage(path));
+    //
+    //     Assert.assertNotNull(throwable.getMessage());
+    // }
 }
