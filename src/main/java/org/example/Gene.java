@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 /**
@@ -65,7 +66,7 @@ public class Gene {
     }
 
     /**
-     * Find a specific codon in a codon sequence
+     * Find a specific codon in a codon sequence via linear search
      *
      * @param key search codon
      * @return if find -> true, else -> false
@@ -74,6 +75,33 @@ public class Gene {
         for (Codon codon : codons) {
             if (codon.compareTo(key) == 0) return true;
         }
+        return false;
+    }
+
+    /**
+     * Find a specific codon in a codon sequence via binary search after sorting
+     *
+     * @param key search codon
+     * @return if find -> true, else -> false
+     */
+    public boolean binaryContains(Codon key) {
+        ArrayList<Codon> sortedCodon = new ArrayList<>(codons);
+        Collections.sort(sortedCodon);
+
+        int low = 0;
+        int high = sortedCodon.size() - 1;
+        while (low <= high) {
+            int middle = (low + high) / 2;
+            int comparison = sortedCodon.get(middle).compareTo(key);
+            if (comparison < 0) {
+                low = middle + 1;
+            } else if (comparison > 0) {
+                high = middle - 1;
+            } else {
+                return true;
+            }
+        }
+
         return false;
     }
 }
