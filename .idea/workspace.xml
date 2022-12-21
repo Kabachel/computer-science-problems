@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="feat: UnbreakableEncryption with images">
-      <change afterPath="$PROJECT_DIR$/docs/org/example/KeyPairImages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/KeyPairImages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="update: README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allpackages-index.html" afterDir="false" />
@@ -34,14 +31,13 @@
       <change beforePath="$PROJECT_DIR$/docs/org/example/Fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Fibonacci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/org/example/Hanoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Hanoi.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/org/example/KeyPair.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/KeyPair.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/KeyPairImages.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/KeyPairImages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/org/example/PiCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/PiCalculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/org/example/UnbreakableEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/UnbreakableEncryption.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/org/example/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/org/example/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/type-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UnbreakableEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UnbreakableEncryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestUnbreakableEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestUnbreakableEncryption.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/test/java/TestCompressedGene.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -67,7 +66,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Ia82Exss4BEO2GddWkYSUfgTng" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -96,9 +97,9 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnbreakableEncryption">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Fibonacci" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Gene" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Gene" />
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Hanoi" />
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Kata" />
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImagesMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ImagesMain" />
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Sum" />
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +137,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnbreakableEncryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.UnbreakableEncryption" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="ComputerScience" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Test" />
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
@@ -151,10 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UnbreakableEncryption" />
-        <item itemvalue="Application.ImagesMain" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.Hanoi" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Gene" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Kata" />
+        <item itemvalue="Application.Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +309,49 @@
       <option name="project" value="LOCAL" />
       <updated>1671452353500</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: UnbreakableEncryption with images">
+      <created>1671560215053</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671560215053</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: UnbreakableEncryption with images">
+      <created>1671560473745</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1671560473745</updated>
+    </task>
+    <task id="LOCAL-00022" summary="test: solve Hanoi">
+      <created>1671561030040</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671561030040</updated>
+    </task>
+    <task id="LOCAL-00023" summary="test: comment image tests because of codecov does not see some func from junit">
+      <created>1671561390820</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671561390820</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update: README">
+      <created>1671561666842</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1671561666842</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update: README">
+      <created>1671561804046</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671561804046</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -334,6 +385,9 @@
     <MESSAGE value="fix: javadoc" />
     <MESSAGE value="fix: add image to javadoc" />
     <MESSAGE value="feat: UnbreakableEncryption with images" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: UnbreakableEncryption with images" />
+    <MESSAGE value="test: solve Hanoi" />
+    <MESSAGE value="test: comment image tests because of codecov does not see some func from junit" />
+    <MESSAGE value="update: README" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: README" />
   </component>
 </project>
