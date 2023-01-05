@@ -28,7 +28,6 @@ public class Gene {
 
     /**
      * Codon from 3 nucleotide
-     * <img src="https://raw.githubusercontent.com/Kabachel/computer-science-problems/develop/docs/resources/part_of_gene.png" />
      */
     public static class Codon implements Comparable<Codon> {
         /**
@@ -42,6 +41,7 @@ public class Gene {
 
         /**
          * Convert codon String into a nucleotide sequence
+         * <img src="https://raw.githubusercontent.com/Kabachel/computer-science-problems/develop/docs/resources/part_of_gene.png" height="200px"/>
          *
          * @param codonStr codon String
          */
