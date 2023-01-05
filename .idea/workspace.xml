@@ -7,45 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="feat: new class Gene">
+    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="feat: binary search to Gene">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/member-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/CompressedGene.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/CompressedGene.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/Fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Fibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/Gene.Codon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Gene.Codon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/Gene.Nucleotide.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Gene.Nucleotide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/Gene.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Gene.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/Hanoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Hanoi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/KeyPair.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/KeyPair.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/KeyPairImages.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/KeyPairImages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/PiCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/PiCalculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/UnbreakableEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/UnbreakableEncryption.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/org/example/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/overview-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Gene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Gene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestGene.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +52,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/IdeaProjects/computer-science-problems/src/main/resources&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/IdeaProjects/computer-science-problems/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -96,6 +61,7 @@
       <recent name="C:\Users\danil\IdeaProjects\computer-science-problems\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danil\IdeaProjects\computer-science-problems\docs\resources" />
       <recent name="C:\Users\danil\IdeaProjects\ComputerScience" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -105,9 +71,9 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Gene" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Gene" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Kata" />
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Kata" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Gene" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Kata" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.Kata" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671629268853</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: binary search to Gene">
+      <created>1671632626988</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1671632626988</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -404,6 +377,7 @@
     <MESSAGE value="test: comment image tests because of codecov does not see some func from junit" />
     <MESSAGE value="update: README" />
     <MESSAGE value="feat: new class Gene" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new class Gene" />
+    <MESSAGE value="feat: binary search to Gene" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: binary search to Gene" />
   </component>
 </project>
