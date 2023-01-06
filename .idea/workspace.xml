@@ -7,18 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="refactor: fix code style">
+    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="refactor: README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CompressedGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CompressedGene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Gene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Gene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCompressedGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCompressedGene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestGene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestGenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestGenericSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestHanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestPiCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestUnbreakableEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestUnbreakableEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestUnbreakableEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestUnbreakableEncryption.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/IdeaProjects/computer-science-problems/src/main/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/danil/IdeaProjects/computer-science-problems/src/main/resources",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danil\IdeaProjects\computer-science-problems\src\main\resources" />
@@ -370,7 +361,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673012445655</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="refactor: fix tests code style">
+      <created>1673013679300</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1673013679300</updated>
+    </task>
+    <task id="LOCAL-00032" summary="refactor: README.md">
+      <created>1673014104476</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1673014104476</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -411,7 +416,9 @@
     <MESSAGE value="feat: binary search to Gene" />
     <MESSAGE value="feat: new GenericSearch" />
     <MESSAGE value="refactor: fix code style" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: fix code style" />
+    <MESSAGE value="refactor: fix tests code style" />
+    <MESSAGE value="refactor: README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

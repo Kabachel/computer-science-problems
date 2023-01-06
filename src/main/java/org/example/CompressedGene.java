@@ -30,6 +30,7 @@ public class CompressedGene {
      * BitSet stores a 2 bit for one char.
      */
     private BitSet bitSet;
+
     /**
      * Length of gene.
      */
