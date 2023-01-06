@@ -3,31 +3,70 @@ package org.example;
 import java.util.Stack;
 
 /**
- * Solving The Towers of Hanoi
+ * Solving The Towers of Hanoi.
  */
 public class Hanoi {
+    /**
+     * Number of discs.
+     */
     private final int numDiscs;
-    public final Stack<Integer> towerA = new Stack<>();
-    public final Stack<Integer> towerB = new Stack<>();
-    public final Stack<Integer> towerC = new Stack<>();
+    /**
+     * Stack of disks on tower A.
+     */
+    private final Stack<Integer> towerA = new Stack<>();
+    /**
+     * Stack of disks on tower B.
+     */
+    private final Stack<Integer> towerB = new Stack<>();
+    /**
+     * Stack of disks on tower C.
+     */
+    private final Stack<Integer> towerC = new Stack<>();
 
     /**
-     * Create The Towers of Hanoi
-     * @param numDiscs number of discs
+     * Get a stack of tower A.
+     * @return Stack of disks of tower A
      */
-    public Hanoi(int numDiscs) {
-        this.numDiscs = numDiscs;
-        for (int i = 1; i <= numDiscs; i++) towerA.push(i);
+    public Stack<Integer> getTowerA() {
+        return towerA;
     }
 
     /**
-     * Solve The Towers of Hanoi
+     * Get a stack of tower B.
+     * @return Stack of disks of tower B
+     */
+    public Stack<Integer> getTowerB() {
+        return towerB;
+    }
+
+    /**
+     * Get a stack of tower C.
+     * @return Stack of disks of tower C
+     */
+    public Stack<Integer> getTowerC() {
+        return towerC;
+    }
+
+    /**
+     * Create The Towers of Hanoi.
+     * @param numDiscs number of discs
+     */
+    public Hanoi(final int numDiscs) {
+        this.numDiscs = numDiscs;
+        for (int i = 1; i <= numDiscs; i++) {
+            towerA.push(i);
+        }
+    }
+
+    /**
+     * Solve The Towers of Hanoi.
      */
     public void solve() {
         move(towerA, towerC, towerB, numDiscs);
     }
 
-    private void move(Stack<Integer> begin, Stack<Integer> end, Stack<Integer> temp, int n) {
+    private void move(final Stack<Integer> begin, final Stack<Integer> end,
+                      final Stack<Integer> temp, final int n) {
         if (n == 1) {
             end.push(begin.pop());
         } else {

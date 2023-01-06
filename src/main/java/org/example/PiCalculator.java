@@ -1,16 +1,16 @@
 package org.example;
 
 /**
- * Calculating number Pi via Leibniz formula
+ * Calculating number Pi via Leibniz formula.
  */
 public class PiCalculator {
     /**
-     * Calculate number Pi with a certain numbers of terms
+     * Calculate number Pi with a certain numbers of terms.
      *
      * @param nTerms number of terms
      * @return number Pi
      */
-    public static double calculatePi(int nTerms) {
+    public static double calculatePi(final int nTerms) {
         final double numeration = 4.0;
         double denomination = 1.0;
         double operation = 1.0;

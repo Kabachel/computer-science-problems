@@ -8,17 +8,21 @@ import java.io.IOException;
 import java.util.Random;
 
 /**
- * Unbreakable encryption with one-time cipher
+ * Unbreakable encryption with one-time cipher.
  */
 public class UnbreakableEncryption {
+    /**
+     * One pixel contains 4 value, for this class takes 3.
+     */
+    private static final int PIXEL_SIZE = 3;
 
     /**
-     * Generate a random key for encrypt message
+     * Generate a random key for encrypt message.
      *
      * @param length length of random key
      * @return byte array of random key
      */
-    private static byte[] generateRandomKey(int length) {
+    private static byte[] generateRandomKey(final int length) {
         byte[] dummy = new byte[length];
         Random random = new Random();
         random.nextBytes(dummy);
@@ -26,43 +30,48 @@ public class UnbreakableEncryption {
     }
 
     /**
-     * String encryption to KeyPair
+     * String encryption to KeyPair.
      *
      * @param original string to be encrypted
      * @return key pair with dummy and encrypted keys
      */
-    public static KeyPair encrypt(String original) {
+    public static KeyPair encrypt(final String original) {
         byte[] originalBytes = original.getBytes();
         byte[] dummyKey = generateRandomKey(originalBytes.length);
         byte[] encryptedKey = new byte[originalBytes.length];
 
-        for (int i = 0; i < originalBytes.length; i++) encryptedKey[i] = (byte) (originalBytes[i] ^ dummyKey[i]);
+        for (int i = 0; i < originalBytes.length; i++) {
+            encryptedKey[i] = (byte) (originalBytes[i] ^ dummyKey[i]);
+        }
 
         return new KeyPair(dummyKey, encryptedKey);
     }
 
     /**
-     * Decryption KeyPair to original string
+     * Decryption KeyPair to original string.
      *
      * @param keyPair key pair with dummy and encrypted keys
      * @return string decrypted from key pair
      */
-    public static String decrypt(KeyPair keyPair) {
+    public static String decrypt(final KeyPair keyPair) {
         byte[] decrypted = new byte[keyPair.key1().length];
 
-        for (int i = 0; i < keyPair.key1().length; i++) decrypted[i] = (byte) (keyPair.key1()[i] ^ keyPair.key2()[i]);
+        for (int i = 0; i < keyPair.key1().length; i++) {
+            decrypted[i] = (byte) (keyPair.key1()[i] ^ keyPair.key2()[i]);
+        }
 
         return new String(decrypted);
     }
 
     /**
-     * Image encryption to KeyPairImage
+     * Image encryption to KeyPairImage.
      *
      * @param original path to the image
      * @return key pair with BufferedImage and dummy key
      * @throws IOException if file from 'path' doesn't exist
      */
-    public static KeyPairImages encryptImage(String original) throws IOException {
+    public static KeyPairImages encryptImage(final String original)
+            throws IOException {
         File file = new File(original);
         BufferedImage image;
 
@@ -81,10 +90,10 @@ public class UnbreakableEncryption {
 
         for (int i = 0; i < raster.getHeight(); i++) {
             for (int j = 0; j < raster.getWidth(); j++) {
-                int[] pixels = raster.getPixel(j, i, new int[4]);
+                int[] pixels = raster.getPixel(j, i, new int[PIXEL_SIZE]);
                 pixels[0] ^= dummyKey[i][j];
                 pixels[1] ^= 2 * dummyKey[i][j];
-                pixels[2] ^= 3 * dummyKey[i][j];
+                pixels[2] ^= PIXEL_SIZE * dummyKey[i][j];
                 raster.setPixel(j, i, pixels);
             }
         }
@@ -96,22 +105,23 @@ public class UnbreakableEncryption {
     }
 
     /**
-     * Decryption KeyPairImage to original image
+     * Decryption KeyPairImage to original image.
      *
      * @param keyPair key pair with dummy and encrypted keys
      * @param path    path to the image
      */
-    public static void decryptImage(KeyPairImages keyPair, String path) throws IOException {
+    public static void decryptImage(final KeyPairImages keyPair,
+                                    final String path) throws IOException {
         BufferedImage image = keyPair.image();
 
         WritableRaster raster = image.getRaster();
 
         for (int i = 0; i < raster.getHeight(); i++) {
             for (int j = 0; j < raster.getWidth(); j++) {
-                int[] pixels = raster.getPixel(j, i, new int[4]);
+                int[] pixels = raster.getPixel(j, i, new int[PIXEL_SIZE]);
                 pixels[0] ^= keyPair.bytes()[i][j];
                 pixels[1] ^= 2 * keyPair.bytes()[i][j];
-                pixels[2] ^= 3 * keyPair.bytes()[i][j];
+                pixels[2] ^= PIXEL_SIZE * keyPair.bytes()[i][j];
                 raster.setPixel(j, i, pixels);
             }
         }

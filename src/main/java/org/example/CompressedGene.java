@@ -3,21 +3,37 @@ package org.example;
 import java.util.BitSet;
 
 /**
- * Trivial compression of DNA code
+ * Trivial compression of DNA code.
  */
 public class CompressedGene {
+    /**
+     * Integer value of 'A' gene for compress.
+     */
+    private static final int GENE_A = 0b00;
+    /**
+     * Integer value of 'C' gene for compress.
+     */
+    private static final int GENE_C = 0b01;
+    /**
+     * Integer value of 'G' gene for compress.
+     */
+    private static final int GENE_G = 0b10;
+    /**
+     * Integer value of 'A' gene for compress.
+     */
+    private static final int GENE_T = 0b11;
 
     /**
-     * BitSet stores a 2 bit for one char
+     * BitSet stores a 2 bit for one char.
      */
     private BitSet bitSet;
     /**
-     * Length of gene
+     * Length of gene.
      */
     private int length;
 
     /**
-     * <p>Compress String of gene in BitSet</p>
+     * <p>Compress String of gene in BitSet.</p>
      * <p>'A' == 00</p>
      * <p>'C' == 01</p>
      * <p>'G' == 10</p>
@@ -25,11 +41,11 @@ public class CompressedGene {
      *
      * @param gene String of gene
      */
-    public CompressedGene(String gene) {
+    public CompressedGene(final String gene) {
         compress(gene);
     }
 
-    private void compress(String gene) {
+    private void compress(final String gene) {
         length = gene.length();
         bitSet = new BitSet(length * 2);
         final String upperGene = gene.toUpperCase();
@@ -55,19 +71,23 @@ public class CompressedGene {
                     bitSet.set(firstLocation, true);
                     bitSet.set(secondLocation, true);
                 }
-                default -> throw new IllegalArgumentException("The provided gene String contains\n" +
-                        "characters other than ACGT");
+                default -> throw new IllegalArgumentException("The provided "
+                        + "gene String contains\n" + "characters other "
+                        + "than ACGT");
             }
         }
     }
 
     /**
-     * <p>Decompress BitSet of DNA code to String</p>
+     * <p>Decompress BitSet of DNA code to String.</p>
      *
      * @return String from BitSet of DNA code
      */
     public String decompress() {
-        if (bitSet == null) return null;
+        if (bitSet == null) {
+            return null;
+        }
+
 
         StringBuilder builder = new StringBuilder(length);
         for (int i = 0; i < (length * 2); i += 2) {
@@ -76,10 +96,11 @@ public class CompressedGene {
             final int lastBits = firstBit << 1 | secondBit;
 
             switch (lastBits) {
-                case 0b00 -> builder.append('A');
-                case 0b01 -> builder.append('C');
-                case 0b10 -> builder.append('G');
-                case 0b11 -> builder.append('T');
+                case GENE_A -> builder.append('A');
+                case GENE_C -> builder.append('C');
+                case GENE_G -> builder.append('G');
+                case GENE_T -> builder.append('T');
+                default -> throw new IllegalArgumentException();
             }
         }
 

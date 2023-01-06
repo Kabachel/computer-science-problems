@@ -16,7 +16,7 @@ public class TestHanoi {
             stackTest.push(i);
         }
 
-        Assert.assertEquals("testSolveWith3Disks(3)", stackTest, hanoi.towerC);
+        Assert.assertEquals("testSolveWith3Disks(3)", stackTest, hanoi.getTowerC());
     }
 
     @Test
@@ -29,7 +29,7 @@ public class TestHanoi {
             stackTest.push(i);
         }
 
-        Assert.assertEquals("testSolveWith4Disks(4)", stackTest, hanoi.towerC);
+        Assert.assertEquals("testSolveWith4Disks(4)", stackTest, hanoi.getTowerC());
     }
 
     @Test
@@ -42,6 +42,6 @@ public class TestHanoi {
             stackTest.push(i);
         }
 
-        Assert.assertEquals("testSolveWith4Disks(4)", stackTest, hanoi.towerC);
+        Assert.assertEquals("testSolveWith4Disks(4)", stackTest, hanoi.getTowerC());
     }
 }

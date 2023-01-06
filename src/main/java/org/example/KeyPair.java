@@ -1,7 +1,7 @@
 package org.example;
 
 /**
- * Key pair for UnbreakableEncrypt
+ * Key pair for UnbreakableEncrypt.
  *
  * @param key1 dummy key
  * @param key2 encrypted key

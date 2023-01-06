@@ -3,7 +3,7 @@ package org.example;
 import java.awt.image.BufferedImage;
 
 /**
- * Key pair for image UnbreakableEncrypt
+ * Key pair for image UnbreakableEncrypt.
  *
  * @param image encrypted image
  * @param bytes dummy key for decryption
