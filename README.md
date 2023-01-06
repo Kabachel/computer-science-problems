@@ -1,6 +1,7 @@
 # computer-science-problems
 
 ![Build Status](https://github.com/Kabachel/computer-science-problems/actions/workflows/ci.yml/badge.svg?branch=develop)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/15f731fc56a944f8980693e7ea7dc339)](https://app.codacy.com/gh/Kabachel/computer-science-problems?utm_source=github.com&utm_medium=referral&utm_content=Kabachel/computer-science-problems&utm_campaign=Badge_Grade_Settings)
 [![codecov](https://codecov.io/gh/Kabachel/computer-science-problems/branch/develop/graph/badge.svg?token=BA4XORKTKS)](https://codecov.io/gh/Kabachel/computer-science-problems)
 
 ## Table of contents
