@@ -7,18 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="feat: new GenericSearch">
+    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="refactor: fix code style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CompressedGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CompressedGene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Gene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Gene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GenericSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Hanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/KeyPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/KeyPair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/KeyPairImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/KeyPairImages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PiCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UnbreakableEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UnbreakableEncryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCompressedGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCompressedGene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestGene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestGenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestGenericSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestPiCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestUnbreakableEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestUnbreakableEncryption.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/TestCompressedGene.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/tests/TestCompressedGene.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -363,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672958686878</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="refactor: fix code style">
+      <created>1673012445655</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673012445655</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -403,7 +410,8 @@
     <MESSAGE value="feat: new class Gene" />
     <MESSAGE value="feat: binary search to Gene" />
     <MESSAGE value="feat: new GenericSearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: new GenericSearch" />
+    <MESSAGE value="refactor: fix code style" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: fix code style" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

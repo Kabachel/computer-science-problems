@@ -1,3 +1,5 @@
+package tests;
+
 import org.example.PiCalculator;
 import org.junit.Assert;
 import org.junit.Test;
@@ -5,6 +7,7 @@ import org.junit.Test;
 public class TestPiCalculator {
 
     boolean compare;
+
     @Test
     public void testCalculatePi() {
         compare = Math.abs(PiCalculator.calculatePi(1) - 4.0) < 1e-6;

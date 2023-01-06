@@ -12,6 +12,7 @@ public class Gene {
      * Size of one codon.
      */
     private static final int CODON_SIZE = 3;
+
     /**
      * List of codons.
      */
@@ -43,10 +44,12 @@ public class Gene {
          * First nucleotide of codon.
          */
         private final Nucleotide first;
+
         /**
          * Second nucleotide of codon.
          */
         private final Nucleotide second;
+
         /**
          * Third nucleotide of codon.
          */

@@ -10,14 +10,17 @@ public class CompressedGene {
      * Integer value of 'A' gene for compress.
      */
     private static final int GENE_A = 0b00;
+
     /**
      * Integer value of 'C' gene for compress.
      */
     private static final int GENE_C = 0b01;
+
     /**
      * Integer value of 'G' gene for compress.
      */
     private static final int GENE_G = 0b10;
+
     /**
      * Integer value of 'A' gene for compress.
      */

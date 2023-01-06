@@ -1,3 +1,5 @@
+package tests;
+
 import org.example.Hanoi;
 import org.junit.Assert;
 import org.junit.Test;
@@ -16,7 +18,8 @@ public class TestHanoi {
             stackTest.push(i);
         }
 
-        Assert.assertEquals("testSolveWith3Disks(3)", stackTest, hanoi.getTowerC());
+        Assert.assertEquals("testSolveWith3Disks(3)", stackTest,
+                hanoi.getTowerC());
     }
 
     @Test
@@ -29,7 +32,8 @@ public class TestHanoi {
             stackTest.push(i);
         }
 
-        Assert.assertEquals("testSolveWith4Disks(4)", stackTest, hanoi.getTowerC());
+        Assert.assertEquals("testSolveWith4Disks(4)", stackTest,
+                hanoi.getTowerC());
     }
 
     @Test
@@ -42,6 +46,7 @@ public class TestHanoi {
             stackTest.push(i);
         }
 
-        Assert.assertEquals("testSolveWith4Disks(4)", stackTest, hanoi.getTowerC());
+        Assert.assertEquals("testSolveWith4Disks(4)", stackTest,
+                hanoi.getTowerC());
     }
 }

@@ -10,14 +10,17 @@ public class Hanoi {
      * Number of discs.
      */
     private final int numDiscs;
+
     /**
      * Stack of disks on tower A.
      */
     private final Stack<Integer> towerA = new Stack<>();
+
     /**
      * Stack of disks on tower B.
      */
     private final Stack<Integer> towerB = new Stack<>();
+
     /**
      * Stack of disks on tower C.
      */
@@ -25,6 +28,7 @@ public class Hanoi {
 
     /**
      * Get a stack of tower A.
+     *
      * @return Stack of disks of tower A
      */
     public Stack<Integer> getTowerA() {
@@ -33,6 +37,7 @@ public class Hanoi {
 
     /**
      * Get a stack of tower B.
+     *
      * @return Stack of disks of tower B
      */
     public Stack<Integer> getTowerB() {
@@ -41,6 +46,7 @@ public class Hanoi {
 
     /**
      * Get a stack of tower C.
+     *
      * @return Stack of disks of tower C
      */
     public Stack<Integer> getTowerC() {
@@ -49,6 +55,7 @@ public class Hanoi {
 
     /**
      * Create The Towers of Hanoi.
+     *
      * @param numDiscs number of discs
      */
     public Hanoi(final int numDiscs) {
