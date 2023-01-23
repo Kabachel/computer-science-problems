@@ -1,6 +1,6 @@
 package tests;
 
-import org.example.chapter1_small_problems.GenericSearch;
+import org.example.chapter2_search_problems.GenericSearch;
 import org.junit.Assert;
 import org.junit.Test;
 

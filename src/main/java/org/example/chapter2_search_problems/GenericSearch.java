@@ -1,4 +1,4 @@
-package org.example.chapter1_small_problems;
+package org.example.chapter2_search_problems;
 
 import java.util.List;
 
