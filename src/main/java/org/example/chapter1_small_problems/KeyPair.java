@@ -1,4 +1,4 @@
-package org.example;
+package org.example.chapter1_small_problems;
 
 /**
  * Key pair for UnbreakableEncrypt.

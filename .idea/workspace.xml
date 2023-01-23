@@ -7,8 +7,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="refactor: README.md">
+    <list default="true" id="1504a084-3e7e-4ba9-9613-351143c0d61f" name="Changes" comment="refactor: README.md and little things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/CompressedGene.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/CompressedGene.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/Fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/Gene.Codon.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Gene.Codon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/Gene.Nucleotide.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Gene.Nucleotide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/Gene.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Gene.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/GenericSearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/GenericSearch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/Hanoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/Hanoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/KeyPair.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/KeyPair.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/KeyPairImages.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/KeyPairImages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/PiCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/PiCalculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/UnbreakableEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/UnbreakableEncryption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/class-use/CompressedGene.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/class-use/CompressedGene.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/class-use/Fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/class-use/Fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/class-use/KeyPair.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/class-use/KeyPair.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/class-use/PiCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/class-use/PiCalculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/org/example/class-use/UnbreakableEncryption.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/org/example/class-use/UnbreakableEncryption.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CompressedGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter1_small_problems/CompressedGene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter1_small_problems/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Gene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter2_search_problems/Gene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter1_small_problems/GenericSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter1_small_problems/Hanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/KeyPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter1_small_problems/KeyPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/KeyPairImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter1_small_problems/KeyPairImages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter1_small_problems/PiCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UnbreakableEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chapter1_small_problems/UnbreakableEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCompressedGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCompressedGene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestGene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestGene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestGenericSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestGenericSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestPiCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestPiCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestUnbreakableEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestUnbreakableEncryption.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +56,8 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Record" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,17 +81,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_opened_file_path": "C:/Users/danil/IdeaProjects/computer-science-problems/src/main/resources",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danil/IdeaProjects/computer-science-problems/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danil\IdeaProjects\computer-science-problems\src\main\resources" />
@@ -78,7 +113,7 @@
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.chapter2_search_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +126,7 @@
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.chapter2_search_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +139,7 @@
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.chapter2_search_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,7 +159,7 @@
       <module name="ComputerScience" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.chapter2_search_problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673014104476</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="refactor: README.md and little things">
+      <created>1673014598657</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1673014598657</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -418,7 +460,8 @@
     <MESSAGE value="refactor: fix code style" />
     <MESSAGE value="refactor: fix tests code style" />
     <MESSAGE value="refactor: README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: README.md" />
+    <MESSAGE value="refactor: README.md and little things" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: README.md and little things" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

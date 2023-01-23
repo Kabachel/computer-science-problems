@@ -1,6 +1,6 @@
 package tests;
 
-import org.example.PiCalculator;
+import org.example.chapter1_small_problems.PiCalculator;
 import org.junit.Assert;
 import org.junit.Test;
 

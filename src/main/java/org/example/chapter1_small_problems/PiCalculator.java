@@ -1,4 +1,4 @@
-package org.example;
+package org.example.chapter1_small_problems;
 
 /**
  * Calculating number Pi via Leibniz formula.

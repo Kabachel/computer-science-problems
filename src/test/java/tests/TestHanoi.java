@@ -1,6 +1,6 @@
 package tests;
 
-import org.example.Hanoi;
+import org.example.chapter1_small_problems.Hanoi;
 import org.junit.Assert;
 import org.junit.Test;
 

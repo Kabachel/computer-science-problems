@@ -3,8 +3,8 @@ package tests;
 import org.junit.Assert;
 import org.junit.Test;
 
-import org.example.UnbreakableEncryption;
-import org.example.KeyPair;
+import org.example.chapter1_small_problems.UnbreakableEncryption;
+import org.example.chapter1_small_problems.KeyPair;
 
 public class TestUnbreakableEncryption {
 

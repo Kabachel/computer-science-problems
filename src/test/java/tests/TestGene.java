@@ -1,6 +1,6 @@
 package tests;
 
-import org.example.Gene;
+import org.example.chapter2_search_problems.Gene;
 import org.junit.Assert;
 import org.junit.Test;
 

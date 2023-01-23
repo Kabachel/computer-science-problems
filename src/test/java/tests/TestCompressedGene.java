@@ -2,7 +2,7 @@ package tests;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.example.CompressedGene;
+import org.example.chapter1_small_problems.CompressedGene;
 
 public class TestCompressedGene {
     @Test

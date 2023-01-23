@@ -1,6 +1,6 @@
 package tests;
 
-import org.example.Fibonacci;
+import org.example.chapter1_small_problems.Fibonacci;
 import org.junit.Assert;
 import org.junit.Test;
 
